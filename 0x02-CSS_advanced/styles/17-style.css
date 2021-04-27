@@ -66,10 +66,11 @@ body {
   padding-bottom: var(--section-body-padding);
 }
 .section-footer{
-  padding-top: var(--footer-padding);
-  padding-left: var(--footer-padding);
-  padding-right: var(--footer-padding);
-  padding-bottom: var(--footer-padding);
+  padding-top: var(--section-footer-padding);
+  padding-left: var(--section-footer-padding);
+  padding-right: var(--section-footer-padding);
+  padding-bottom: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
 .section-title{
   font-family: var(--font-family-title);
@@ -458,4 +459,7 @@ template {
 
 [hidden] {
   display: none;
+}
+.footer{
+  padding: var(--footer-padding);
 }
