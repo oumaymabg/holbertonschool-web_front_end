@@ -42,7 +42,7 @@ body {
 }
 .container{
     width: 960px;
-    margin-right:inherit;
+    margin-right:initial;
 
 }
 .section-header{
