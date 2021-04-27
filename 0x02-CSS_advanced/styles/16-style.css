@@ -41,9 +41,8 @@ body {
     font-weight: var(--font-weight-bold);
 }
 .container{
+    margin: 0 auto;
     width: 960px;
-    border: 960px;
-
 }
 .section-header{
     text-align:var(--section-header-align);
