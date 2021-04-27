@@ -9,6 +9,15 @@ a:link{
     color: var(--text-color);
     text-decoration: none;
 }
+a:visited{
+    font-style: italic;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    background-color: var(--color-light-grey);
+}
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
