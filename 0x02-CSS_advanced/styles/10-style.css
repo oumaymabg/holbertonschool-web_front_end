@@ -24,9 +24,10 @@ body {
 }
 .section-tagline {
     color: var(--color-primary);
-    text-align: var(--section-header-align);
 }
-    
+.section-header{
+    text-align:var(--section-header-align);
+}
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
