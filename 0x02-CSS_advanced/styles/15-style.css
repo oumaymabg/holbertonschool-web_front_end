@@ -1,6 +1,6 @@
 html {           
     scroll-behavior:smooth;
-    box-sizing: border-box ;
+    box-sizing:inherit ;
     }
 h1,h2,h3,h4,h5,h6 {
     font-family: font-family-title;
