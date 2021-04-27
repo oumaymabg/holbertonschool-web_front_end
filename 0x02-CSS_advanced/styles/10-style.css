@@ -26,7 +26,7 @@ body {
     color: var(--color-primary);
 }
 .section-tagline{
-    section-header: var(--section-header-align);
+    text-align: var(--section-header-align);
 }
 :root {
     --color-primary: #d73953;
