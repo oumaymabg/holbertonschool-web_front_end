@@ -461,5 +461,8 @@ template {
   display: none;
 }
 .footer{
-  padding: var(--footer-padding);
+  padding-top: var(--footer-padding);
+  padding-left: var(--footer-padding);
+  padding-right: var(--footer-padding);
+  padding-bottom: var(--footer-padding);
 }
