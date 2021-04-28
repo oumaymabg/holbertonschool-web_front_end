@@ -100,12 +100,12 @@
     all:none;
 }
 .col-1-3{
-    width: 33.33%;
+    width: 0.3333rem;
     float: left;
     padding: var(--section-padding);
 }
 .col-1-2{
-    width: 50%;
+    width: 0.5rem;
     float: left;
 
 }
