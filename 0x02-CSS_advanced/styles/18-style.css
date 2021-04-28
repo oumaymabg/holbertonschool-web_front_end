@@ -68,6 +68,7 @@
     color: var(--section-title-color);
   }
   .navbar-menu{
+      float: right;
 
   }
   .nav{
