@@ -111,7 +111,7 @@
 
 }
 .footer-copyright{
-    margin: none;
+    margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
 
