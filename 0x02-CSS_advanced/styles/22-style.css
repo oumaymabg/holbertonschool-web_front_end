@@ -162,6 +162,7 @@ ul.row{
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin:0;
+    --data-section-theme: black;
     --background:var(--color-black);
 
 
