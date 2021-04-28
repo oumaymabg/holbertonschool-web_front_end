@@ -5,7 +5,7 @@ html {
   scroll-behavior:smooth;
   }
 h1,h2,h3,h4,h5,h6 {
-  font-family: var(--font-family-title);
+  font-family: font-family-title;
   font-weight: var(--font-weight-bold);
 }
 a:link{
@@ -32,7 +32,7 @@ body {
   display: none;
 }
 .card-category {
-  color: var(--color-primary);
+  color:#D73953 ;
 }
 .section-tagline {
   color: var(--color-primary);
@@ -91,7 +91,7 @@ body {
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
-  --section-padding: (5rem, 0);
+  --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
   --section-footer-padding: 3rem 0 0;
