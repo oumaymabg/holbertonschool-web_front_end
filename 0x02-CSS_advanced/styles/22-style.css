@@ -163,8 +163,9 @@ ul.row{
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin:0;
     --text-color: var(--color-white);
-    --section-title-color: var(--color-white)
-    
+    --section-title-color: var(--color-white);
+    --background-color:var(--color-black);
+
 
   
   }
