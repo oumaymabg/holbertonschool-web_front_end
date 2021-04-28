@@ -116,6 +116,9 @@
     color: var(--text-color);
 
 }
+.footer.ul{
+    text-align: right;
+}
 
   :root {
     --color-primary: #d73953;
@@ -507,7 +510,7 @@
   [hidden] {
     display: none;
   }
-  .ul .footer{
+.footer{
     padding: var(--footer-padding);
-    text-align: right;
+ 
   }
