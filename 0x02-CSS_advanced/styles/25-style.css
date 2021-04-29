@@ -162,7 +162,7 @@ ul.row{
     text-decoration: var(--button-text-decoration);
 
 }
-a:hover{
+.a:hover{
 color: var(--button-hover-color);
 text-decoration: var(--button-hover-text-decoration);
 background: var(--button-hover-color);
