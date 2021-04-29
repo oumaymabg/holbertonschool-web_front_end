@@ -17,6 +17,9 @@
   }
   a:hover{
     text-decoration: underline;
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-color);
   }
   a:active{
     background-color: var(--color-light-grey);
@@ -161,11 +164,6 @@ ul.row{
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 
-}
-.a:hover{
-color: var(--button-hover-color);
-text-decoration: var(--button-hover-text-decoration);
-background: var(--button-hover-color);
 }
   :root {
     --color-primary: #d73953;
