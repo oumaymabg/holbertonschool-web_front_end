@@ -173,8 +173,8 @@ ul.row{
 }
 .card-testimonial .card-avatar {
     border-radius: 50%;
-    width: 10x;
-    height: 10x;
+    width: 10rem;
+    height: 10rem;
 }
 .card-testimonial.card-quote cite{
     style: block;
