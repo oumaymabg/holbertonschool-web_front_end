@@ -191,13 +191,16 @@ ul.row{
     padding: 10rem 40rem 2rem 0;
 }
 .header{
-    --header: var(--header-padding);
+    padding: var(--header-padding);
 }
 .header-logo{
-    --header-logo: var(--header-logo-position);
-    display: var(--header-logo-link-position);
+    position: var(--header-logo-position);
+}
+.header-logo a {
+    display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    position: var(--header-logo-link-left);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
 }
   :root {
     --color-primary: #d73953;
