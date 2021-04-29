@@ -155,10 +155,11 @@ ul.row{
   fill: var(--text-color);
 }
 .button{
-    bottom: var(--button-display);
+    display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
     color: var(--button-color);
+    font-size: var(--button-font-size);
     text-decoration: var(--button-text-decoration);
 
 }
