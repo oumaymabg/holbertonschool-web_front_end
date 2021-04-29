@@ -130,14 +130,14 @@ ul.row{
     background: var(--color-black);
 }
 .footer-address{
-    --text-color: var(--text-color);
+    color: var(--text-color);
 }
 .social-link{
-    --rendering: block;
+    display: block;
 
 }
-.social-link .svg{
-  color: var(--text-color);
+.social-link > svg{
+  fill: var(--text-color);
 }
   :root {
     --color-primary: #d73953;
