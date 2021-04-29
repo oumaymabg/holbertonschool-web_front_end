@@ -176,8 +176,8 @@ ul.row{
     width: 10rem;
     height: 10rem;
 }
-.card-testimonial.card-quote cite{
-    --style: block;
+.card-testimonial .card-quote cite{
+    display: block;
     padding: 1rem;
     color: var(--color-primary);
 }
