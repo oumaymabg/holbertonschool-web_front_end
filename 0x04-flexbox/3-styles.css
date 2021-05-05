@@ -376,13 +376,13 @@
   
   /* Section Latest news ============================= */
   .section-latest-news .row {
-  	flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 
- /* Section SERVICES ============================= */ 
-  .section-services .row{
+  /* Section SERVICES ============================= */
+  .section-services .row {
     flex-wrap: wrap;
-    }
+  }
 
   /*** 4. CARD ***/
   
