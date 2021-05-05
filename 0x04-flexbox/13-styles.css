@@ -589,9 +589,12 @@
     padding: 0;
     list-style: none;
 }
-.tag-list .li {
-    content: ",";
+.tag-list li {
+    display: inline;
 }
-.tag-list .li::after{
-    content: "";
+.tag-list li::after{
+    content: ", ";
+}
+.tag-list li:last-child:after{
+  content: '';
 }
