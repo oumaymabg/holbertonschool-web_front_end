@@ -148,7 +148,7 @@
     transition-duration: var(--transition-duration);
     transition-property: color, background-color;
   }
-  
+
   /* Helpers
       ============================= */
   
@@ -251,12 +251,12 @@
   
   .header {
     padding: var(--header-padding);
-         position: relative;
-         z-index: 3;
-         background: transparent;
+    position: relative;
+    z-index: 3;
+    background: transparent;
   }
   
-  .header-container{
+  .header-container {
     display: flex;
     justify-content: space-between;
   }
