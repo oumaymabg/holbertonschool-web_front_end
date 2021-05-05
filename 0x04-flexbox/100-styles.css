@@ -654,6 +654,6 @@
       margin: 1rem 0;
       padding: 0 5rem;
       font-size: var(--font-size-small);
-      color: var#a0a0a0;
+      color: var(--color-grey);
       text-align: center;
     }
