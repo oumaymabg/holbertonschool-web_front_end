@@ -60,8 +60,8 @@
     --section-footer-align: center;
   
     /** HEADER **/
-    --header-logo-link-left: 0;
-  
+    --header-padding: 4rem 0 0;
+
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
   
