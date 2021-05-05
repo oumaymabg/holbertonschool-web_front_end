@@ -377,7 +377,7 @@
   }
 
   /* Section ABOUT US */
-  .col .section-about-us{
+  .section-about-us .col-*{
       align-self: center;
   }
 
