@@ -61,7 +61,7 @@
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-  
+
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
   
@@ -148,7 +148,7 @@
     transition-duration: var(--transition-duration);
     transition-property: color, background-color;
   }
-  
+
   /* Helpers
       ============================= */
   
@@ -179,9 +179,16 @@
     margin: -1rem;
     padding: 0;
     list-style: none;
-    
   }
+  
+  .row::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
   [class*='col-'] {
+    float: left;
     margin: 1rem;
   }
   
@@ -192,27 +199,26 @@
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
   }
-  .row{
-    display: flex;
-  }
   
   /* Navbar
       ============================= */
   
-    .nav .nav-item .nav-item {
+  .nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
     display: flex;
   }
-  
+  .nav .nav-item + .nav-item {
+    margin: var(--nav-item-margin);
+  }
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
+    
   }
   
   .nav .nav-link {
@@ -247,17 +253,17 @@
   
   .header {
     padding: var(--header-padding);
-         position: relative;
-         z-index: 3;
-         background: transparent;
+    position: relative;
+    z-index: 3;
+    background: transparent;
   }
   
-
-  .header-container{
-    display:flex;
+  .header-container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
+  
   /* Footer
       ============================= */
   
@@ -341,50 +347,52 @@
   /* Section HERO
       ============================= */
   
-  .section-hero{
-    background-position: 75% 0;
-    background-repeat: no-repeat;
-    background-size: 90rem auto;
-    background-color: #010101;
+  .section-hero {
     position:relative;
     margin-top:-8.5rem;
+
   }
-  .hero-homepage{
-    background-position: 75% 0;
-    background-repeat: no-repeat;
-    background-size: 90rem auto;
-    background-color: #010101;
+  .section-hero .section-body{
+    padding : 10rem 4rem;
   }
+  .section-hero .section-category{
+    color: var(--color-white);
+    text-transform: uppercase;
+  }
+.hero-homepage {
+  background-position: 75% 0;
+  background-repeat: no-repeat;
+  background-size: 90rem auto;
+  background-color: #010101;
+}
+
   .section-hero .section-title {
     margin-bottom: 5rem;
   }
   
   .section-hero .section-inner {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     min-height: 50vh;
   }
-  .section-hero .section-body{
-    padding: 10rem 4rem;
-  }
-  .section-hero .section-category{
-color: var(--color-white);
-text-transform: uppercase;
-  }
+  
   /* Section Latest news ============================= */
-.section-latest-news .row {
-    flex-direction: row-reverse;      
+  .section-latest-news .row {
+    flex-direction: row-reverse;
   }
+
   /* Section SERVICES ============================= */
-  .section-services .row{
-      flex-wrap:wrap;
+  .section-services .row {
+    flex-wrap: wrap;
   }
-  /* Section ABOUT US========*/
-  .col-1-2.section-about-us{
-    align-self: center;
+
+  /* Section ABOUT US */
+  .section-about-us [class*="col-"] {
+      align-self: center;
   }
+
   /*** 4. CARD ***/
   
   /* Card (all styles)
@@ -458,9 +466,7 @@ text-transform: uppercase;
   .card-work:hover .card-title {
     opacity: 1;
   }
-  .section-works{
-
-  }
+  
   /* Card SERVICES
       ============================= */
   
@@ -480,9 +486,6 @@ text-transform: uppercase;
     text-decoration: none;
     transition-duration: 0.3s;
     transition-property: color, background-color;
-  }
-  .section-services{
-
   }
   
   /* Card TESTIMONIAL
@@ -517,21 +520,3 @@ text-transform: uppercase;
     font-size: 10rem;
     z-index: -1;
   }
-  .section-testimonial{
-
-  }
-    /* about
-      ============================= */
-.section-about-us{
-
-}
-/* latest_news
-      ============================= */
-  .section-latest-news{
-
-  }    
-/* contact 
-======================*/
-.section-contact{
-    
-}
