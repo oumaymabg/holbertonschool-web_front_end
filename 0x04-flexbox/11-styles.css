@@ -543,7 +543,7 @@
     align-items: center;
     min-height: 40vh;
 }
-.hero-article .section-inner{
+.hero-article .section-inner {
     position: relative;
     padding: 7rem 0 0;
     z-index: 2;
