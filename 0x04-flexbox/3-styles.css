@@ -452,9 +452,7 @@
   .card-work:hover .card-title {
     opacity: 1;
   }
-  .section-works{
-
-  }
+  
   /* Card SERVICES
       ============================= */
   
@@ -474,9 +472,6 @@
     text-decoration: none;
     transition-duration: 0.3s;
     transition-property: color, background-color;
-  }
-  .section-services{
-
   }
   
   /* Card TESTIMONIAL
