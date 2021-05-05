@@ -538,12 +538,12 @@
     bottom: 0;
     z-index: 0;
 }
-.section-inner .hero-article {
+.hero-article .section-inner {
     text-align: center;
     align-items: center;
     min-height: 40vh;
 }
-.section-inner.hero-article {
+.hero-article .section-inner{
     position: relative;
     padding: 7rem 0 0;
     z-index: 2;
