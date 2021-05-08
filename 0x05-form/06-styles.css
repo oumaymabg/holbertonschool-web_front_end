@@ -773,7 +773,7 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
   input:required:valid ~ .form-field-icon::after {
     content: '✔';
     color: var(--valid-color);
-  }
+  
   
   /* We want to hide the helper text when we are not in focus. The tilte allows us to select a sibling element in CSS */
   
