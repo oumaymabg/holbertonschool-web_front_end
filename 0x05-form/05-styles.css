@@ -712,6 +712,14 @@
     background-color: var(--color-light-grey);
     transition: .3s;
 }
+/* Form field
+============================= */
+.form-field-container{
+  position:relative;
+}
+.form-field-icon{
+  font-style: normal;
+}
 
 /* Form help
 ============================= */
@@ -726,7 +734,7 @@
     transition: .3s;
     overflow: hidden;
 }
-.form-group .form-help :focus-within {
+.form-group + .form-help:focus-within {
     max-height: 20rem;
     margin: .4rem 0 0;
 }
