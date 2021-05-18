@@ -101,23 +101,21 @@
   *, *:before, *:after {
     box-sizing: border-box;
   }
-
-  html {
-  scroll-behavior: smooth;
-  font-size: 62.5%;
-  }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px){
     html {
       font-size: 57%;
     }
   }
-  
-  @media screen and (min-width: 481px) and (max-width: 767px) {
+
+  @media screen and (min-width: 481px) and (max-width: 767px){
     html {
       font-size: 60%;
     }
   }
-
+  html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  }
 
   body {
     color: var(--text-color);
@@ -532,9 +530,23 @@
 
   /* Card WORK
       ============================= */
-  @media screen and (max-width: 767px{
-      
+
+      @media screen and (max-width: 767px) {
+  .card-work .card-inner {
+    color: var(--color-white);
+    position: relative;
+  
   }
+    
+  .card-work .card-title {
+    opacity: 1;
+  }
+    
+  .card-work .card-title a {
+    padding: 2rem 1rem 0 1rem;
+  }
+}
+      
 
   .card-work .card-outer {
     position: relative;
@@ -558,7 +570,6 @@
   }
 
   .card-work .card-inner {
-    
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
@@ -566,8 +577,6 @@
     bottom: -0.1rem;
     z-index: 1;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
-    --text-color: var(--color-white);
-    position: relative;
   }
 
   .card-work:hover .card-inner {
@@ -580,7 +589,6 @@
     opacity: 0;
     height: 100%;
     position: relative;
-    opacity: ;
   }
 
   .card-work .card-title a {
@@ -611,7 +619,7 @@
 
   .card-services a {
     display: block;
-    padding: 2rem 1rem 0 1rem;
+    padding: 2rem;
     background-color: var(--color-light-grey);
   }
 
